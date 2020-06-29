@@ -18,6 +18,7 @@ function jnf_register_cpt() {
         'rewrite' => array(
             'slug' => 'works'
         ),
+        'supports' => array('editor', 'thumbnail')
     ));
 }
 
